@@ -39,15 +39,16 @@ void CTestCopy::disPlay()
 {
 	cout <<"x=" << x << " " << "y=" << y << endl;
 }
-int MyTest(CTestCopy temp)
+/*int MyTest(CTestCopy temp)
 {
 	temp.disPlay();
 	return 0;
-}
+}*/
 int main()
 {
 	CTestCopy ot(50, 100);
-	MyTest(ot);
+	ot.disPlay();
+	//MyTest(ot);
 	return 0;
 }
 
